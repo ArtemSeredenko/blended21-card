@@ -137,6 +137,12 @@ body {
   margin-right: -15%;
 }
 
+.view__count {
+  display: flex;
+  flex-direction: column;
+  margin-left: -20px;
+}
+
 .view__count__num {
   color: #fff;
   font-family: Montserrat;
@@ -144,6 +150,8 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  padding: 0;
+  margin: 0;
 }
 
 .view__count__have_read {
