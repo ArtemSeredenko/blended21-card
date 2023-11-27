@@ -74,16 +74,16 @@ body {
   z-index: 3;
 }
 
-.card__wrapper {
+.card__body {
   padding: 23px 0 0 40px;
 }
 
-.image {
+.card__image {
   width: 530px;
   height: 350px;
 }
 
-.chapter {
+.card__chapter {
   color: #fff;
   font-family: Montserrat;
   font-size: 24px;
@@ -93,7 +93,7 @@ body {
   margin-bottom: 7px;
 }
 
-.title {
+.card__title {
   color: #fff;
   font-family: Montserrat;
   font-size: 33px;
@@ -103,14 +103,14 @@ body {
   margin-bottom: 20px;
 }
 
-.author {
+.card__author {
   display: flex;
   align-items: center;
   gap: 15px;
   margin-bottom: 20px;
 }
 
-.author__name {
+.card__author-name {
   color: #b5b2b5;
   font-family: Montserrat;
   font-size: 22px;
@@ -124,7 +124,7 @@ body {
   align-items: center;
 }
 
-.views {
+.card__views {
   display: flex;
   max-width: 450px;
   justify-content: space-between;
@@ -144,7 +144,7 @@ body {
   margin-left: -20px;
 }
 
-.view__count__num {
+.view__count-num {
   color: #fff;
   font-family: Montserrat;
   font-size: 18px;
@@ -155,7 +155,7 @@ body {
   margin: 0;
 }
 
-.view__count__have_read {
+.view__count-text {
   color: #b5b2b5;
   font-family: Montserrat;
   font-size: 16px;
